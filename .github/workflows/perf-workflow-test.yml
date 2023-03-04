@@ -19,3 +19,6 @@ jobs:
 
       - name: Run k6 extension test
         run: ./k6 run extension/test_script_01_login.js
+        
+      - name: k6 Load Test
+        uses: grafana/k6-action@v0.2.0
